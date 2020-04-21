@@ -161,7 +161,7 @@ body {
 }
 
 .posts__post__user__image {
-	height: 90%;
+	height: 80%;
 	border-radius: 50%;
 	margin-right: .5em;
 	border: 2px solid rgba(255,255,255,.2);
