@@ -1,69 +1,98 @@
 <!DOCTYPE html>
 <html class="no-js" lang="pt-br">
+  <head>
+    <meta charset="utf-8" />
+    <title>Instagram Codenation</title>
+    <meta name="description" content="" />
+    <link rel="shortcut icon" type="image/png" href="/favicon.png" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 
-<head>
-	<meta charset="utf-8" />
-	<title>Instagram Codenation</title>
-	<meta name="description" content="" />
-	<link rel="shortcut icon" type="image/png" href="/favicon.png" />
-	<meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/fontawesome.min.css" />
+    <link rel="stylesheet" href="css/main.css" />
+  </head>
 
-	<link rel="stylesheet" href="css/normalize.css" />
-	<link rel="stylesheet" href="css/fontawesome.min.css" />
-	<link rel="stylesheet" href="css/main.css" />
-</head>
-
-<body>
-	<nav class="nav">
-		<img src="img/instagram-logo.svg" alt="" class="nav__logo">
-		<div class="messages">
-			<i class="fas fa-paper-plane nav__icon"></i>
-			<div class="nav__notification">5</div>
-		</div>
-	</nav>
-	<ul class="stories">
-			<li class="stories__wrapper">
-				<a href="#" class="stories__image-wrapper">
-					<img src="/public/img/profiles/black-panther/black-panther-profile.jpg" alt="black-panther-profile"
-						class="stories__image">
-				</a>
-				<!-- bpanther -->
-			</li>
-			<li class="stories__wrapper stories__wrapper--new">
-				<a href="#" class="stories__image-wrapper">
-					<img src="/public/img/profiles/bruce/bruce-profile.jpg" alt="bruce-profile"
-						class="stories__image">
-				</a>
-				<!-- bpanther -->
-			</li>
-			<li class="stories__wrapper stories__wrapper--new"">
-				<a href="#" class="stories__image-wrapper">
-					<img src="/public/img/profiles/carol/carol-profile.jpg" alt="carol-profile"
-						class="stories__image">
-				</a>
-				<!-- bpanther -->
-			</li>
-			<li class="stories__wrapper">
-				<a href="#" class="stories__image-wrapper">
-					<img src="/public/img/profiles/domino/domino-profile.jpg" alt="domino-profile"
-						class="stories__image">
-				</a>
-				<!-- bpanther -->
-			</li>
-			<li class="stories__wrapper">
-				<a href="#" class="stories__image-wrapper">
-					<img src="/public/img/profiles/gamora/gamora-profile.jpg" alt="gamora-profile"
-						class="stories__image">
-				</a>
-				<!-- bpanther -->
-			</li>
-			<li class="stories__wrapper">
-				<a href="#" class="stories__image-wrapper">
-					<img src="/public/img/profiles/yoda/yoda-profile.jpg" alt="yoda-profile"
-						class="stories__image">
-				</a>
-				<!-- bpanther -->
-			</li>
-	</ul>
-</body>
+  <body>
+    <nav class="nav">
+      <img src="img/instagram-logo.svg" alt="" class="nav__logo" />
+      <div class="messages">
+        <i class="fas fa-paper-plane nav__icon"></i>
+        <div class="nav__notification">5</div>
+      </div>
+    </nav>
+    <section class="stories">
+      <div class="stories__item__wrapper">
+        <a href="#" class="stories__item">
+          <span class="stories__item__image__wrapper stories__item__image__wrapper--new">
+            <img
+              class="stories__item__image"
+              src="./img/profiles/bruce/bruce-profile.jpg"
+              alt="bruce-profile"
+            />
+          </span>
+          <p class="stories__item__name">notbatman</p>
+        </a>
+      </div>
+      <div class="stories__item__wrapper">
+        <a href="#" class="stories__item">
+          <span class="stories__item__image__wrapper stories__item__image__wrapper--new">
+            <img
+              class="stories__item__image"
+              src="./img/profiles/black-panther/black-panther-profile.jpg"
+              alt="black-panther-profile"
+            />
+          </span>
+          <p class="stories__item__name">bpanther</p>
+        </a>
+      </div>
+      <div class="stories__item__wrapper">
+        <a href="#" class="stories__item">
+          <span class="stories__item__image__wrapper">
+            <img
+              class="stories__item__image"
+              src="./img/profiles/carol/carol-profile.jpg"
+              alt="carol-profile"
+            />
+          </span>
+          <p class="stories__item__name">marvelcp</p>
+        </a>
+      </div>
+      <div class="stories__item__wrapper">
+        <a href="#" class="stories__item">
+          <span class="stories__item__image__wrapper">
+            <img
+              class="stories__item__image"
+              src="./img/profiles/domino/domino-profile.jpg"
+              alt="domino-profile"
+            />
+          </span>
+          <p class="stories__item__name">domino</p>
+        </a>
+      </div>
+      <div class="stories__item__wrapper">
+        <a href="#" class="stories__item">
+          <span class="stories__item__image__wrapper stories__item__image__wrapper--new">
+            <img
+              class="stories__item__image"
+              src="./img/profiles/gamora/gamora-profile.jpg"
+              alt="gamora-profile"
+            />
+          </span>
+          <p class="stories__item__name">gamora</p>
+        </a>
+      </div>
+      <div class="stories__item__wrapper">
+        <a href="#" class="stories__item">
+          <span class="stories__item__image__wrapper">
+            <img
+              class="stories__item__image"
+              src="./img/profiles/yoda/yoda-profile.jpg"
+              alt="yoda-profile"
+            />
+          </span>
+          <p class="stories__item__name">yoda</p>
+        </a>
+      </div>
+    </section>
+  </body>
 </html>
