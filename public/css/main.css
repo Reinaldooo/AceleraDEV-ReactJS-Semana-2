@@ -15,7 +15,7 @@ body {
   justify-content: space-between;
   align-items: center;
   background-color: #1a1a1a;
-  padding: 0.5em 1.5em;
+  padding: 0.5em 1.2em;
 }
 
 .nav__logo {
@@ -121,4 +121,89 @@ body {
   color: #fafafa;
   font-size: 14px;
   margin-top: 0.5em;
+}
+
+.posts {
+	padding: 1em 1.2em;
+}
+
+.posts__post {
+	background-color: #1a1a1a;
+	border-radius: 10px;
+	border: 2px solid rgba(255,255,255,.05);
+	margin-bottom: 2em;
+	color: #fafafa;
+}
+
+.posts__post__header {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: .2em 1.2em;
+}
+
+.posts__post__user__details {
+	height: 60px;
+	padding: 5px 0;
+	display: flex;
+	align-items: center;
+}
+
+.posts__post__user__image {
+	height: 90%;
+	border-radius: 50%;
+	margin-right: .5em;
+	border: 2px solid rgba(255,255,255,.2);
+}
+
+.posts__post__menu {
+	font-size: 20px;
+	display: block;
+}
+
+.posts__post__image {
+	width: 100%;
+}
+
+.posts__post__buttons {
+	display: flex;
+	justify-content: space-between;
+	padding: .4em 1.2em;
+}
+
+.posts__post__buttons__left {
+	width: 30%;
+	display: flex;
+	justify-content: space-between;
+}
+
+.posts__post__button {
+	font-size: 20px;
+}
+
+.posts__post__likes {
+	padding: .4em 1.2em;
+	font-size: 14px;
+}
+
+.posts__post__description {
+	padding: .4em 1.2em;
+	font-size: 14px;
+}
+/* -----------
+-----------
+-----------
+-----------
+-----------
+-----------
+-----------
+-----------
+----------- */
+.hashtag {
+	color: #e0f1ff;
+}
+
+.posts__post__timestamp {
+	padding: .6em 1.7em;
+	font-size: 10px;
 }
