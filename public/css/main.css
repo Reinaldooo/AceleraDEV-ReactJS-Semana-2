@@ -10,20 +10,31 @@ body {
   background-color: #000;
 }
 
+.container {
+	max-width: 800px;
+	margin: 0 auto;
+}
+
 .nav {
-  display: flex;
+  background-color: #1a1a1a;
+}
+
+.nav__container {
+	max-width: 800px;
+	margin: 0 auto;
+	display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #1a1a1a;
   padding: 0.5em 1.2em;
 }
 
 .nav__logo {
+	max-width: 180px;
   width: 35%;
 }
 
 .nav__messages {
-  position: relative;
+	position: relative;
 }
 
 .nav__icon {
@@ -33,11 +44,11 @@ body {
 
 .nav__notification {
   position: absolute;
-  background-color: #ed4956;
+  right: -7px;
+  top: -7px;
   width: 20px;
   height: 20px;
-  right: 12px;
-  top: 12px;
+  background-color: #ed4956;
   border-radius: 9px;
   display: flex;
   justify-content: center;
@@ -172,13 +183,17 @@ body {
 }
 
 .posts__post__buttons__left {
-	width: 30%;
+	width: 100px;
 	display: flex;
 	justify-content: space-between;
 }
 
 .posts__post__button {
 	font-size: 20px;
+}
+
+.posts__post__button--liked {
+	color: #ed4956;
 }
 
 .posts__post__likes {
@@ -190,20 +205,14 @@ body {
 	padding: .4em 1.2em;
 	font-size: 14px;
 }
-/* -----------
------------
------------
------------
------------
------------
------------
------------
------------ */
-.hashtag {
-	color: #e0f1ff;
-}
 
 .posts__post__timestamp {
 	padding: .6em 1.7em;
 	font-size: 10px;
+}
+
+/* General rules */
+
+.hashtag {
+	color: #e0f1ff;
 }
